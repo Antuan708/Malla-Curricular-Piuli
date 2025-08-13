@@ -4,21 +4,21 @@ body {
     background-size: cover; 
     background-position: center center; 
     background-attachment: fixed; 
-    background-color: #D8F3DC; /* Verde menta claro */
+    background-color: #E8F8EE; /* Verde muy pálido */
 }
 
 .container {
     max-width: 1300px;
     margin: 20px auto;
     padding: 30px;
-    background-color: #F0FAF4; /* Verde muy suave */
+    background-color: #FFFFFF; /* Fondo blanco para más claridad */
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
 h1 {
     text-align: center;
-    color: #40916C; /* Verde bosque suave */
+    color: #90CFA0; /* Verde musgo tenue */
     margin-bottom: 40px;
     font-size: 2.8em;
     position: relative;
@@ -34,7 +34,7 @@ h1::after {
     transform: translateX(-50%);
     width: 100px;
     height: 5px;
-    background-color: #74C69D; /* Verde medio pastel */
+    background-color: #B0E0B5; /* Verde té pálido */
     border-radius: 3px;
 }
 
@@ -49,21 +49,21 @@ h1::after {
     flex: 1;
     min-width: 280px;
     max-width: 320px;
-    background-color: #B7E4C7; /* Verde té suave */
+    background-color: #DFF6E3; /* Verde menta suave */
     border-radius: 10px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .semester:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .semester h2 {
-    background-color: #74C69D; /* Verde hierba pastel */
-    color: white;
+    background-color: #B0E0B5; /* Verde té pálido */
+    color: #2F4F3E; /* Verde oscuro para contraste */
     padding: 18px 20px;
     margin: 0;
     font-size: 1.6em;
@@ -80,8 +80,8 @@ h1::after {
 }
 
 .course-item {
-    background-color: #F0FAF4; /* Verde muy suave */
-    border: 1px solid #B7E4C7; /* Borde verde té suave */
+    background-color: #FFFFFF; /* Fondo blanco */
+    border: 1px solid #C8EED0; /* Verde agua pastel */
     border-radius: 8px;
     padding: 14px 18px;
     margin-bottom: 12px;
@@ -91,7 +91,7 @@ h1::after {
     justify-content: space-between;
     align-items: center;
     font-size: 1em;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
 }
 
 .course-item:last-child {
@@ -99,24 +99,24 @@ h1::after {
 }
 
 .course-item:hover:not(.approved):not(.blocked) {
-    background-color: #D8F3DC; /* Verde menta claro al hover */
-    border-color: #95D5B2;
+    background-color: #E8F8EE; /* Verde muy pálido */
+    border-color: #B0E0B5;
     transform: translateX(5px);
 }
 
 .course-item.approved {
-    background-color: #B7E4C7;
-    color: #40916C;
+    background-color: #DFF6E3;
+    color: #5E8F6C; /* Verde suave */
     text-decoration: line-through;
-    border-color: #74C69D;
+    border-color: #B0E0B5;
     cursor: default;
     opacity: 0.8;
 }
 
 .course-item.blocked {
-    background-color: #95D5B2;
-    color: #2D6A4F; /* Verde oscuro suave */
-    border-color: #2D6A4F;
+    background-color: #C8EED0;
+    color: #4F7054; /* Verde oscuro */
+    border-color: #4F7054;
     cursor: not-allowed;
     opacity: 0.7;
 }
@@ -144,13 +144,13 @@ h1::after {
 }
 
 .modal-content {
-    background-color: #F0FAF4;
+    background-color: #FFFFFF;
     margin: auto;
     padding: 35px;
     border-radius: 10px;
     width: 90%;
     max-width: 550px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     position: relative;
     animation: fadeIn 0.3s ease-out;
 }
