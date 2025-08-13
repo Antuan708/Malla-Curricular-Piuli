@@ -4,21 +4,21 @@ body {
     background-size: cover; 
     background-position: center center; 
     background-attachment: fixed; 
-    background-color: #E8F8EE; /* Verde muy pálido */
+    background-color: #efffe1; /* Verde muy claro */
 }
 
 .container {
     max-width: 1300px;
     margin: 20px auto;
     padding: 30px;
-    background-color: #FFFFFF; /* Fondo blanco para más claridad */
+    background-color: #FFFFFF; /* Fondo blanco */
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
 h1 {
     text-align: center;
-    color: #90CFA0; /* Verde musgo tenue */
+    color: #bfff8a; /* Verde más intenso */
     margin-bottom: 40px;
     font-size: 2.8em;
     position: relative;
@@ -34,7 +34,7 @@ h1::after {
     transform: translateX(-50%);
     width: 100px;
     height: 5px;
-    background-color: #B0E0B5; /* Verde té pálido */
+    background-color: #dbff95; /* Verde suave */
     border-radius: 3px;
 }
 
@@ -49,7 +49,7 @@ h1::after {
     flex: 1;
     min-width: 280px;
     max-width: 320px;
-    background-color: #DFF6E3; /* Verde menta suave */
+    background-color: #eeffcd; /* Verde pastel suave */
     border-radius: 10px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
     overflow: hidden;
@@ -62,8 +62,8 @@ h1::after {
 }
 
 .semester h2 {
-    background-color: #B0E0B5; /* Verde té pálido */
-    color: #2F4F3E; /* Verde oscuro para contraste */
+    background-color: #bfff8a; /* Verde vivo pastel */
+    color: #1b3d0e;
     padding: 18px 20px;
     margin: 0;
     font-size: 1.6em;
@@ -80,8 +80,8 @@ h1::after {
 }
 
 .course-item {
-    background-color: #FFFFFF; /* Fondo blanco */
-    border: 1px solid #C8EED0; /* Verde agua pastel */
+    background-color: #FFFFFF;
+    border: 1px solid #e7ffad; /* Verde pastel medio */
     border-radius: 8px;
     padding: 14px 18px;
     margin-bottom: 12px;
@@ -99,24 +99,24 @@ h1::after {
 }
 
 .course-item:hover:not(.approved):not(.blocked) {
-    background-color: #E8F8EE; /* Verde muy pálido */
-    border-color: #B0E0B5;
+    background-color: #efffe1; /* Verde muy claro */
+    border-color: #dbff95;
     transform: translateX(5px);
 }
 
 .course-item.approved {
-    background-color: #DFF6E3;
-    color: #5E8F6C; /* Verde suave */
+    background-color: #eeffcd;
+    color: #5c7a2d;
     text-decoration: line-through;
-    border-color: #B0E0B5;
+    border-color: #e7ffad;
     cursor: default;
     opacity: 0.8;
 }
 
 .course-item.blocked {
-    background-color: #C8EED0;
-    color: #4F7054; /* Verde oscuro */
-    border-color: #4F7054;
+    background-color: #e7ffad;
+    color: #3b5d1f;
+    border-color: #3b5d1f;
     cursor: not-allowed;
     opacity: 0.7;
 }
